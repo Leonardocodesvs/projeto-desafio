@@ -186,7 +186,9 @@ h2 span { color: var(--red); }
 
 @media (max-width: 900px) {
   .header-inner { min-height: 82px; }
-  .brand img { width: 190px; }
+.brand img {
+  width: 180px;
+}
   .menu-toggle { display: block; }
   .main-nav { position: absolute; top: 75px; right: 24px; display: none; width: min(300px, calc(100vw - 48px)); flex-direction: column; align-items: stretch; gap: 4px; padding: 15px; border-radius: 14px; background: #4a070d; box-shadow: 0 18px 35px rgba(0,0,0,.25); }
   .main-nav.is-open { display: flex; }
