@@ -42,7 +42,12 @@ img { display: block; max-width: 100%; }
 .hero-copy { width: 515px; padding-top: 35px; }
 .rating { display: flex; align-items: center; gap: 13px; font-size: 18px; margin-bottom: 25px; }
 .rating img { width: 145px; height: auto; }
-.hero h1 { font-size: 42px; line-height: 1.2; letter-spacing: -.5px; margin-bottom: 20px; }
+.hero h1 {
+  font-size: 44px;
+  line-height: 1.2;
+  letter-spacing: -.5px;
+  margin-bottom: 20px;
+}
 .hero h1 span { color: var(--red-light); }
 .hero-copy > p:not(.guarantee-note) { color: #f0e5e7; font-size: 18px; line-height: 1.35; max-width: 500px; margin-bottom: 34px; }
 .hero-copy > p strong { color: #fff; }
