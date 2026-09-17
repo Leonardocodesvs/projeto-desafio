@@ -18,7 +18,6 @@ function openModal(packageName) {
 function closeModal() {
   orderModal.hidden = true;
   document.body.style.overflow = '';
-
   if (lastFocusedElement) {
     lastFocusedElement.focus();
   }
