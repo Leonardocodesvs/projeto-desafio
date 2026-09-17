@@ -84,14 +84,5 @@ Foram priorizados os assets entregues no desafio. Imagens que não precisam carr
 
 ## Git
 
-O trabalho deve manter commits separados para mostrar a evolução. Sugestão de histórico:
-
-```text
-chore: inicia estrutura do projeto
-feat: cria estrutura da pagina de vendas
-feat: adiciona responsividade e estilos
-feat: adiciona interacoes e acessibilidade
-docs: adiciona diagnostico e README
-```
 
 Última revisão: as imagens raster principais foram convertidas para WebP; os SVGs originais foram mantidos.
