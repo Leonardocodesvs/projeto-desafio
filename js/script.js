@@ -58,9 +58,18 @@ document.addEventListener('keydown', function (event) {
   }
 });
 
+//Favor , informe , seu nome:
 orderForm.addEventListener('submit', function (event) {
   event.preventDefault();
+
   const name = document.querySelector('#customer-name').value.trim();
+
+  if (!name) {
+    formMessage.textContent = 'Por favor, informe seu nome.';
+    return;
+  }
+
   formMessage.textContent = `Obrigado, ${name}! Sua solicitação foi registrada para ${selectedPackage.textContent}.`;
+
   orderForm.reset();
 });
