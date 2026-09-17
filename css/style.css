@@ -172,7 +172,7 @@ h2 span { color: var(--red); }
 }
 .faq-item button span { font-size: 24px; transition: transform .2s ease; }
 .faq-item.is-open button span { transform: rotate(180deg); }
-.faq-answer { display: none; color: #665c5e; padding: 0 24px 20px; line-height: 1.5; }
+.faq-answer { display: none; color: #665c5e; padding: 0 24px 20px; line-height: 1.7; }
 .faq-item.is-open .faq-answer { display: block; }
 .label { width: min(1050px, 100%); margin: 58px auto 0; }
 
