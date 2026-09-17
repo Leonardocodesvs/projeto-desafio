@@ -153,7 +153,23 @@ h2 span { color: var(--red); }
 .faq-list { display: grid; gap: 10px; }
 .faq-item { border-radius: 7px; overflow: hidden; background: #fff; }
 .faq-item h3 { font-size: inherit; }
-.faq-item button { width: 100%; min-height: 62px; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 16px 24px; border: 0; color: #551017; background: #fff; font-size: 18px; font-weight: 700; text-align: left; cursor: pointer; }
+.faq-item button {
+  width: 100%;
+  min-height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 16px 24px;
+  border: 0;
+  color: #551017;
+  background: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+  transition: background .2s ease;
+}
 .faq-item button span { font-size: 24px; transition: transform .2s ease; }
 .faq-item.is-open button span { transform: rotate(180deg); }
 .faq-answer { display: none; color: #665c5e; padding: 0 24px 20px; line-height: 1.5; }
