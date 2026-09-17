@@ -218,7 +218,11 @@ h2 span { color: var(--red); }
   .benefit-column { grid-row: 2; }
   .benefit-product-wrap img { width: 500px; }
 
-  .price-grid { grid-template-columns: 1fr; max-width: 470px; }
+  .price-grid {
+  grid-template-columns: 1fr;
+  max-width: 470px;
+  gap: 35px;
+}
   .price-card.popular { transform: none; }
   .pricing { min-height: auto; }
   .faq { min-height: auto; }
