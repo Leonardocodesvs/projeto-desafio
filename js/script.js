@@ -3,7 +3,7 @@ const nav = document.querySelector('.main-nav');
 const orderModal = document.querySelector('#order-modal');
 const selectedPackage = document.querySelector('#selected-package');
 const orderForm = document.querySelector('#order-form');
-
+const formMessage = document.querySelector('#form-message');
 let lastFocusedElement = null;
 
 function openModal(packageName) {
@@ -18,6 +18,7 @@ function openModal(packageName) {
 function closeModal() {
   orderModal.hidden = true;
   document.body.style.overflow = '';
+
   if (lastFocusedElement) {
     lastFocusedElement.focus();
   }
