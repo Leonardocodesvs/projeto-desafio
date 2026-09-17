@@ -81,7 +81,7 @@ img { display: block; max-width: 100%; }
 h2 { font-size: 46px; line-height: 1.12; letter-spacing: -.5px; }
 h2 span { color: var(--red); }
 .about-copy h2 { margin-bottom: 25px; }
-.about-copy > p:not(.eyebrow) { color: var(--muted); font-size: 17px; line-height: 1.45; margin-bottom: 17px; }
+.about-copy > p:not(.eyebrow) { color: #55484a; font-size: 17px; line-height: 1.45; margin-bottom: 17px; }
 .about-copy strong { color: #342224; }
 
 .ingredients { min-height: 1243px; padding: 105px 0 80px; background: #fff; }
